@@ -82,7 +82,18 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-8 text-xs text-white/45 sm:flex-row">
-          <p>© 2025 Lumora Studio. All rights reserved.</p>
+          <p>
+            © 2026{" "}
+            <a
+              href="https://dvo.design/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              Dvo.Design
+            </a>
+            . All rights reserved.
+          </p>
           <div className="flex gap-6">
             <AnimatedLink
               href="#privacy"
